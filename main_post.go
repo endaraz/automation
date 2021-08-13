@@ -82,10 +82,10 @@ func main() {
 	}
 
 	input := CorrectResponse{
-		ID:     123,
-		Title:  "adr",
-		UserID: 33,
-		Body:   "asd sa as d",
+		ID:     101,
+		Title:  "recommendation",
+		UserID: 12,
+		Body:   "motorcycle",
 	}
 
 	result, _ := testPostAPI(input)
